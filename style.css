@@ -1,0 +1,367 @@
+html {
+    background-color: #5f256b;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    min-width: 100vh;
+    display: flex;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.container1 {
+    width: 85px;
+    position: relative;
+    display: inline-block;
+}
+
+.geralzao {
+    width: 100%;
+    height: 100%;
+    background-color: #5f256b;
+}
+.corzinha{
+    width: 100%; 
+    background-color: #704378;
+    position: fixed;
+    margin-bottom: 20px;
+}
+
+.titu-img {
+    text-align: center; 
+    padding-top: 20px;
+}
+
+/* #titu2 {
+    position:relative; 
+    top: 5%;
+    background-size: cover;
+} ;*/
+
+.container2 {
+    height: 100%;
+    width: 100%;
+    background-color: #5f256b;
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+
+.flex-item1 {
+    display: none;
+    background-color: #350b42;
+    min-width: 200px;
+    position: fixed;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px white;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.buttonmenu:hover {
+    text-decoration: none;
+    color: white;
+}
+.flex-item1 a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration:none;
+    display:block;
+}
+
+.flex-item1 a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #4a0f5c;
+}
+
+.container1:hover .flex-item1 {
+    display:block;
+    width: 15%;
+}
+
+.buttonmenu {
+    background-color: #704378;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-right:20px;
+    padding-left: 20px;
+}
+
+.buttonmenu:hover {
+    background-color: #792a80;
+    color: white;
+}
+
+.flex-item7, .flex-item8, .flex-item9, .flex-item5, .flex-item6, .flex-item10, .flex-item11, .flex-item12, .flex-item13, .flex-item14, .flex-item15, .flex-item16, .flex-item17, .flex-item18, .flex-item19, .flex-item20, .flex-item21, .flex-item22, .flex-item23, .flex-item24 {
+    box-shadow: 0px 0px 6px white; 
+    height: 40%;
+    width: 30%;
+    background-color: rgb(71, 65, 65);
+    color: rgba(0, 0, 255, 0);
+    display: flex;
+    align-items:flex-end;
+    margin-top: 25px;
+}
+
+.flex-item5 {
+    background-image: url(bolsa\ vivan\ 1.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-item6 {
+    background-image: url(champang\ dourado.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-item7 {
+    background-image: url(quadro\ mais\ caro.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-item8 {
+    background-image: url(voucher.pity.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-item9 {
+    background-image: url(bolsa\ vivan\ 2.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-item10 {
+    background-image: url(fds\ em\ bh.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-item11 {
+    background-image: url(brinco\ ultra\ caro.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-item12 {
+    background-image: url(ingresso\ porche.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-item13 {
+    background-image: url(vinho\ chateau.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-item14 {
+    background-image: url(vinho\ sena.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.flex-item15 {
+    background-image: url(vinho\ pera\ manca.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.flex-item16 {
+    background-image: url(vinho\ pera\ manca\ 2.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.flex-item17 {
+    background-image: url(vinho\ gaja\ spearss.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.flex-item18 {
+    background-image: url(violao\ paulo\ R.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.flex-item19 {
+    background-image: url(vinho\ chateau\ 2.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.flex-item20 {
+    background-image: url(workchop\ ip.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.flex-item21 {
+    background-image: url(vinho\ luigi\ bosca.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.flex-item22 {
+    background-image: url(vinho\ grand\ vin.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.flex-item23 {
+    background-image: url(vinho\ campog.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.flex-item24 {
+    background-image: url(vinho\ brunello.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+@keyframes ampli {
+    0% { 
+        background-size: 100%;
+       
+    }
+    25% {
+        background-size: 120%;
+        box-shadow: 0 0 6px white, inset 0 -120px 6px -8px  rgba(24, 24, 27, 0.575);  
+        color: rgba(0, 0, 255, 0);
+    }
+    100% {
+        background-size: 120%;
+        color: white;
+        box-shadow: 0 0 6px white, inset 0 -120px 6px -8px  rgba(24, 24, 27, 0.575);
+    }
+}
+
+
+.flex-item5:hover, .flex-item6:hover, .flex-item7:hover, .flex-item8:hover, .flex-item9:hover, .flex-item10:hover, .flex-item11:hover, .flex-item12:hover, .flex-item13:hover, .flex-item14:hover, .flex-item15:hover, .flex-item16:hover, .flex-item17:hover, .flex-item18:hover, .flex-item19:hover, .flex-item20:hover, .flex-item21:hover, .flex-item22:hover, .flex-item23:hover, .flex-item24:hover {
+    animation-name: ampli;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-fill-mode:forwards;
+}
+
+.flex-item5, .flex-item6, .flex-item7, .flex-item8, .flex-item9, .flex-item10, .flex-item11, .flex-item12, .flex-item13, .flex-item14, .flex-item15, .flex-item16, .flex-item17, .flex-item18, .flex-item19, .flex-item20, .flex-item21, .flex-item22, .flex-item23, .flex-item24 {
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+@media (max-width:640px) {
+    @keyframes ampli {
+        0% { 
+            background-size: cover;
+           
+        }
+        25% {
+            background-size: cover;
+            box-shadow: 0 0 6px white, inset 0 -120px 6px -8px  rgba(24, 24, 27, 0.575);  
+            color: rgba(0, 0, 255, 0);
+        }
+        100% {
+            background-size: cover;
+            color: white;
+            box-shadow: 0 0 6px white, inset 0 -120px 6px -8px  rgba(24, 24, 27, 0.575);
+        }  
+    }
+
+    
+
+    /*.flex-item7, .flex-item8, .flex-item9, , .flex-item5, .flex-item6, .flex-item10, .flex-item11, .flex-item12, .flex-item13, .flex-item14, .flex-item15, .flex-item16, .flex-item17, .flex-item18 {
+        box-shadow: 0px 0px 6px white; 
+        height: 40%;
+        width: 100%;
+        background-color: rgb(71, 65, 65);
+        color: rgba(0, 0, 255, 0);
+        display: flex;
+        margin-top: 25px;
+    }*/
+
+    .container2 {
+        height: 100%;
+        width: 100%;
+        background-color: #5f256b;
+        display: flex;
+        justify-content: center; 
+        flex-wrap:wrap;
+        /* flex-direction: column;
+        position: relative;
+        top: 100%;
+        margin-top: 40%; */
+    } 
+} 
+
+.footer {
+    background-color: #c073cd;
+    border-top: 2px solid black;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+h5 {
+    padding-bottom: 40px;
+}
